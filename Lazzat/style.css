@@ -1,0 +1,192 @@
+
+
+*{
+    margin :0;
+padding: 0;
+box-sizing:border-box ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 100% ;
+
+margin: 0 auto;
+}
+.box{
+text-align: center;
+padding: 100px 0;
+background-image: url("chef-icon.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 150px ;
+
+}
+.navbar{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto
+    ;
+}
+.navbar ul{
+  
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+.list{
+    
+border-bottom: solid;
+    border-top: solid;
+    height: 100%;
+  width: 400px;
+padding-top: 10px;
+padding-bottom: 10px;
+    transition: .5s;
+    margin: 10px auto; 
+}
+.list a{
+    transition: .5s;
+    color: rgb(0, 0, 0);
+}
+.list:hover{
+background-color: rgb(145, 137, 137);
+}
+.list a:hover { 
+      color: black;
+}
+.main{
+    margin: 0 auto;
+        width: 90%  ;
+        margin-bottom: 100px;
+        height: 900px;
+}
+
+.main ul li {
+   width: 400px ;
+    display: inline-block;
+}
+.main ul {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+}
+
+main img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+height: 250px;
+
+}
+main img:hover{
+    background-color: red;
+    opacity: .5 ;
+}
+main h2{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+main a{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight:600;
+    padding: 5px;
+    transition: .5s;
+}
+main a:hover{
+    background-color: blue;
+    color:black ;
+}
+.but{
+    color: white;
+    background-color: chocolate;
+}
+    .but1{
+        background-color: rgb(218, 83, 35); color: white;
+    }
+    .but2{
+        color: white;
+        background-color: teal;
+    }
+
+    
+.but3{
+    background-color:palevioletred ;
+     color: white;
+}
+.but4{
+    background-color: lawngreen;
+color: white;
+}
+.but5{
+    background-color: palevioletred;
+    color: white;
+}
+.but6{
+    color: rgba(218, 13, 13, 0.76);
+    border: 3px solid rgba(218, 13, 13, 0.76);
+    text-align: center;
+font-weight: 800;
+margin-left: 50%;
+}
+.but6:hover{
+    background-color: red;
+    color: royalblue;
+    transition: 1s;
+}
+
+footer{
+   
+    height: 350px;
+    margin: 0 auto;
+    width: 90%;
+    background-image: url(./food7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+footer form{
+    width: 65%;
+    margin: 0 auto;
+}
+footer form input{
+    font-weight: 900;
+    color: rgb(63, 62, 62);
+    font-size: 24px;
+       margin-top: 120px;
+    width: 60%;
+    height: 60px;
+    border-radius: 5px;
+}
+footer p{
+    word-spacing: 7px;
+    width: 500px;
+    margin: 0 auto;
+margin-top: 50px;
+color: white;
+font-weight: 800;
+}
+footer button{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-left: 20px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: rgb(250, 42, 6);
+    height: 60px;
+    border-radius: 5px;
+}
+footer button:hover{
+    background-color: rgb(255, 0, 51);
+    color: rgb(13, 13, 124);
+}
